@@ -1,0 +1,2539 @@
+[
+  {
+    "query": {
+      "id": "e1",
+      "query": "card reader not working",
+      "difficulty": "easy",
+      "relevant_keywords": [
+        [
+          "card",
+          "reader"
+        ]
+      ],
+      "judge": "auto"
+    },
+    "engines": {
+      "keyword": {
+        "elapsed_ms": 116,
+        "hits": [
+          {
+            "id": "m000347",
+            "score": 1.0,
+            "date": "2023-04-07",
+            "casino": "Casino Epsilon",
+            "department": "IT",
+            "equipment": "POS Terminal 22",
+            "problem": "Credit card readers intermittently failing to read chip. Terminal stuck on authorization screen.",
+            "solution": "Cleaned reader head, updated driver. Tested with multiple cards.",
+            "status": "Working",
+            "engine": "keyword",
+            "relevant": true
+          },
+          {
+            "id": "m002836",
+            "score": 0.8421,
+            "date": "2025-09-14",
+            "casino": "Venue Kappa",
+            "department": "Slots",
+            "equipment": "Slot #455",
+            "problem": "Player card reader fails to read magnetic stripe, sometimes shows invalid card. Multiple attempts needed.",
+            "solution": "Cleaned card reader head, realigned guide, and tested with test cards. Reads on first swipe.",
+            "status": "OK",
+            "engine": "keyword",
+            "relevant": true
+          },
+          {
+            "id": "m002881",
+            "score": 0.8421,
+            "date": "2024-01-22",
+            "casino": "Regional Office A",
+            "department": "Slots",
+            "equipment": "Slot #445",
+            "problem": "Player card reader fails to read card, giving error on touchscreen but works with cash.",
+            "solution": "Cleaned reader head, replaced ribbon cable, tested with multiple cards.",
+            "status": "Working",
+            "engine": "keyword",
+            "relevant": true
+          },
+          {
+            "id": "m003251",
+            "score": 0.8421,
+            "date": "2022-08-02",
+            "casino": "Venue Kappa",
+            "department": "IT",
+            "equipment": "Player Tracking Terminal 5",
+            "problem": "Card reader fails to read player's club card, showing 'Invalid Swipe' error. Multiple players complained at VIP area.",
+            "solution": "Cleaned magnetic read head and verified ribbon connection. Tested with 10 different cards, all read successfully.",
+            "status": "OK",
+            "engine": "keyword",
+            "relevant": true
+          },
+          {
+            "id": "m004473",
+            "score": 0.8421,
+            "date": "2022-06-01",
+            "casino": "Casino Epsilon",
+            "department": "Tables",
+            "equipment": "Blackjack Table 12",
+            "problem": "Dealer reports card reader intermittently fails to read player cards.",
+            "solution": "Replaced worn card reader head and recalibrated; ran 50 test reads.",
+            "status": "Working",
+            "engine": "keyword",
+            "relevant": true
+          }
+        ],
+        "recall_at_k": 1.0
+      },
+      "semantic": {
+        "elapsed_ms": 2828,
+        "hits": [
+          {
+            "id": "m002518",
+            "score": 0.9061,
+            "date": "2020-10-26",
+            "casino": "Casino Gamma",
+            "department": "Gaming Floor",
+            "equipment": "Slot #3",
+            "problem": "card reader not working on Slot #3",
+            "solution": "replaced card reader",
+            "status": "Awaiting parts - Working",
+            "engine": "semantic",
+            "relevant": true
+          },
+          {
+            "id": "m004927",
+            "score": 0.9061,
+            "date": "2024-06-05",
+            "casino": "Casino Beta",
+            "department": "Gaming Floor",
+            "equipment": "Slot #3",
+            "problem": "card reader not working on Slot #3",
+            "solution": "replaced card reader",
+            "status": "Working",
+            "engine": "semantic",
+            "relevant": true
+          },
+          {
+            "id": "m001926",
+            "score": 0.9028,
+            "date": "2024-08-13",
+            "casino": "Venue Kappa",
+            "department": "Gaming Floor",
+            "equipment": "Slot #295",
+            "problem": "card reader not working on Slot #295",
+            "solution": "replaced card reader",
+            "status": "Awaiting parts - Working",
+            "engine": "semantic",
+            "relevant": true
+          },
+          {
+            "id": "m003782",
+            "score": 0.9024,
+            "date": "2023-08-20",
+            "casino": "Venue Theta",
+            "department": "Gaming Floor",
+            "equipment": "Slot #307",
+            "problem": "card reader not working on Slot #307",
+            "solution": "replaced card reader",
+            "status": "OK",
+            "engine": "semantic",
+            "relevant": true
+          },
+          {
+            "id": "m003561",
+            "score": 0.9023,
+            "date": "2020-12-12",
+            "casino": "Venue Theta",
+            "department": "Gaming Floor",
+            "equipment": "Slot #343",
+            "problem": "card reader not working on Slot #343",
+            "solution": "replaced card reader",
+            "status": "Escalated",
+            "engine": "semantic",
+            "relevant": true
+          }
+        ],
+        "recall_at_k": 1.0
+      },
+      "hybrid": {
+        "elapsed_ms": 92,
+        "hits": [
+          {
+            "id": "m000151",
+            "score": 0.02786,
+            "date": "2024-11-17",
+            "casino": "Casino Gamma",
+            "department": "Gaming Floor",
+            "equipment": "Slot #9",
+            "problem": "card reader not working on Slot #9",
+            "solution": "replaced card reader",
+            "status": "In Progress",
+            "engine": "hybrid",
+            "origins": [
+              "keyword",
+              "semantic"
+            ],
+            "relevant": true
+          },
+          {
+            "id": "m000396",
+            "score": 0.02769,
+            "date": "2024-03-05",
+            "casino": "Regional Office A",
+            "department": "Gaming Floor",
+            "equipment": "Slot #341",
+            "problem": "card reader not working on Slot #341",
+            "solution": "replaced card reader",
+            "status": "Awaiting parts - Working",
+            "engine": "hybrid",
+            "origins": [
+              "keyword",
+              "semantic"
+            ],
+            "relevant": true
+          },
+          {
+            "id": "m000347",
+            "score": 0.01639,
+            "date": "2023-04-07",
+            "casino": "Casino Epsilon",
+            "department": "IT",
+            "equipment": "POS Terminal 22",
+            "problem": "Credit card readers intermittently failing to read chip. Terminal stuck on authorization screen.",
+            "solution": "Cleaned reader head, updated driver. Tested with multiple cards.",
+            "status": "Working",
+            "engine": "hybrid",
+            "origins": [
+              "keyword"
+            ],
+            "relevant": true
+          },
+          {
+            "id": "m002518",
+            "score": 0.01639,
+            "date": "2020-10-26",
+            "casino": "Casino Gamma",
+            "department": "Gaming Floor",
+            "equipment": "Slot #3",
+            "problem": "card reader not working on Slot #3",
+            "solution": "replaced card reader",
+            "status": "Awaiting parts - Working",
+            "engine": "hybrid",
+            "origins": [
+              "semantic"
+            ],
+            "relevant": true
+          },
+          {
+            "id": "m002836",
+            "score": 0.01613,
+            "date": "2025-09-14",
+            "casino": "Venue Kappa",
+            "department": "Slots",
+            "equipment": "Slot #455",
+            "problem": "Player card reader fails to read magnetic stripe, sometimes shows invalid card. Multiple attempts needed.",
+            "solution": "Cleaned card reader head, realigned guide, and tested with test cards. Reads on first swipe.",
+            "status": "OK",
+            "engine": "hybrid",
+            "origins": [
+              "keyword"
+            ],
+            "relevant": true
+          }
+        ],
+        "recall_at_k": 1.0
+      }
+    }
+  },
+  {
+    "query": {
+      "id": "e2",
+      "query": "IP camera installation",
+      "difficulty": "easy",
+      "relevant_keywords": [
+        [
+          "camera"
+        ],
+        [
+          "ip",
+          "cam"
+        ]
+      ],
+      "judge": "auto"
+    },
+    "engines": {
+      "keyword": {
+        "elapsed_ms": 44,
+        "hits": [
+          {
+            "id": "m000078",
+            "score": 1.0,
+            "date": "2021-03-23",
+            "casino": "Venue Kappa",
+            "department": "IT",
+            "equipment": "Camera CT12",
+            "problem": "Camera goes black every 15-20 minutes, then recovers. Image also slightly blurry in low light.",
+            "solution": "Replaced power over ethernet injector and cleaned lens. Adjusted focus ring. Tested for 2 hours continuous operation.",
+            "status": "Working",
+            "engine": "keyword",
+            "relevant": true
+          },
+          {
+            "id": "m000127",
+            "score": 1.0,
+            "date": "2024-02-14",
+            "casino": "Casino Epsilon",
+            "department": "IT",
+            "equipment": "Camera CT21",
+            "problem": "surveillance camera offline on Camera CT21",
+            "solution": "reconnected BNC and power",
+            "status": "Awaiting parts - Working",
+            "engine": "keyword",
+            "relevant": true
+          },
+          {
+            "id": "m000133",
+            "score": 1.0,
+            "date": "2023-01-09",
+            "casino": "Venue Eta",
+            "department": "IT",
+            "equipment": "Camera CT12",
+            "problem": "Video feed frozen with no timestamp update. Camera offline in monitoring console.",
+            "solution": "Rebooted camera via POE. Updated firmware. Confirmed feed live and recording.",
+            "status": "OK",
+            "engine": "keyword",
+            "relevant": true
+          },
+          {
+            "id": "m000158",
+            "score": 1.0,
+            "date": "2025-04-28",
+            "casino": "Casino Alpha",
+            "department": "IT",
+            "equipment": "Camera CT12",
+            "problem": "Camera feed flickering and losing sync. Video pixelates on recorder.",
+            "solution": "Replaced faulty BNC connector and reseated cable.",
+            "status": "Working",
+            "engine": "keyword",
+            "relevant": true
+          },
+          {
+            "id": "m000160",
+            "score": 1.0,
+            "date": "2022-12-15",
+            "casino": "Casino Beta",
+            "department": "IT",
+            "equipment": "Camera CT12",
+            "problem": "Camera shows static and pixelation, no clear image. Possibly damaged cable or lens issue.",
+            "solution": "Replaced video cable and cleaned lens. Image clarity restored.",
+            "status": "Working",
+            "engine": "keyword",
+            "relevant": true
+          }
+        ],
+        "recall_at_k": 1.0
+      },
+      "semantic": {
+        "elapsed_ms": 11,
+        "hits": [
+          {
+            "id": "m003665",
+            "score": 0.7163,
+            "date": "2024-12-28",
+            "casino": "Casino Epsilon",
+            "department": "IT",
+            "equipment": "Camera CT12",
+            "problem": "Video feed dropped to black screen intermittently. Power over Ethernet not detected at camera.",
+            "solution": "Replaced damaged network cable and re-terminated connection. Camera back online with clear image.",
+            "status": "OK",
+            "engine": "semantic",
+            "relevant": true
+          },
+          {
+            "id": "m001441",
+            "score": 0.7151,
+            "date": "2022-01-08",
+            "casino": "Casino Beta",
+            "department": "IT",
+            "equipment": "Camera CT12",
+            "problem": "Camera feed frozen with green tint. Network camera unreachable via web interface, but PoE light solid. Possibly firmware crash.",
+            "solution": "Power cycled via switch, updated firmware from backup. Restored clear video feed.",
+            "status": "Working",
+            "engine": "semantic",
+            "relevant": true
+          },
+          {
+            "id": "m001088",
+            "score": 0.715,
+            "date": "2021-10-14",
+            "casino": "Regional Office B",
+            "department": "IT",
+            "equipment": "Camera CT12",
+            "problem": "Camera feed dropping every few minutes, shows static between drops. PTZ not responding to commands.",
+            "solution": "Replaced power over Ethernet injector and reset camera. Feed stable full resolution.",
+            "status": "OK",
+            "engine": "semantic",
+            "relevant": true
+          },
+          {
+            "id": "m000997",
+            "score": 0.7107,
+            "date": "2025-04-22",
+            "casino": "Casino Epsilon",
+            "department": "IT",
+            "equipment": "Camera CT12",
+            "problem": "Camera feed dropped out, showing black screen. Power cable chewed by rat.",
+            "solution": "Replaced cable, sealed conduit, restored feed.",
+            "status": "Working",
+            "engine": "semantic",
+            "relevant": true
+          },
+          {
+            "id": "m000133",
+            "score": 0.706,
+            "date": "2023-01-09",
+            "casino": "Venue Eta",
+            "department": "IT",
+            "equipment": "Camera CT12",
+            "problem": "Video feed frozen with no timestamp update. Camera offline in monitoring console.",
+            "solution": "Rebooted camera via POE. Updated firmware. Confirmed feed live and recording.",
+            "status": "OK",
+            "engine": "semantic",
+            "relevant": true
+          }
+        ],
+        "recall_at_k": 1.0
+      },
+      "hybrid": {
+        "elapsed_ms": 58,
+        "hits": [
+          {
+            "id": "m000133",
+            "score": 0.0308,
+            "date": "2023-01-09",
+            "casino": "Venue Eta",
+            "department": "IT",
+            "equipment": "Camera CT12",
+            "problem": "Video feed frozen with no timestamp update. Camera offline in monitoring console.",
+            "solution": "Rebooted camera via POE. Updated firmware. Confirmed feed live and recording.",
+            "status": "OK",
+            "engine": "hybrid",
+            "origins": [
+              "keyword",
+              "semantic"
+            ],
+            "relevant": true
+          },
+          {
+            "id": "m000282",
+            "score": 0.02991,
+            "date": "2022-04-07",
+            "casino": "Regional Office A",
+            "department": "IT",
+            "equipment": "Camera CT22",
+            "problem": "Camera feed showing static on monitor 4. Network connection is active but video signal corrupt.",
+            "solution": "Re-seated video cable and replaced the BNC connector. Adjusted camera focus. Feed now clear.",
+            "status": "Working",
+            "engine": "hybrid",
+            "origins": [
+              "keyword",
+              "semantic"
+            ],
+            "relevant": true
+          },
+          {
+            "id": "m000246",
+            "score": 0.02731,
+            "date": "2021-12-14",
+            "casino": "Casino Delta",
+            "department": "IT",
+            "equipment": "Camera CT12",
+            "problem": "Camera feed shows static and occasional black screen. Cable run seems fine. Possibly camera or DVR input issue.",
+            "solution": "Rebooted camera and DVR port. Replaced BNC connector and shielded cable. Feed stable for 2 hours.",
+            "status": "Working",
+            "engine": "hybrid",
+            "origins": [
+              "keyword",
+              "semantic"
+            ],
+            "relevant": true
+          },
+          {
+            "id": "m000078",
+            "score": 0.01639,
+            "date": "2021-03-23",
+            "casino": "Venue Kappa",
+            "department": "IT",
+            "equipment": "Camera CT12",
+            "problem": "Camera goes black every 15-20 minutes, then recovers. Image also slightly blurry in low light.",
+            "solution": "Replaced power over ethernet injector and cleaned lens. Adjusted focus ring. Tested for 2 hours continuous operation.",
+            "status": "Working",
+            "engine": "hybrid",
+            "origins": [
+              "keyword"
+            ],
+            "relevant": true
+          },
+          {
+            "id": "m003665",
+            "score": 0.01639,
+            "date": "2024-12-28",
+            "casino": "Casino Epsilon",
+            "department": "IT",
+            "equipment": "Camera CT12",
+            "problem": "Video feed dropped to black screen intermittently. Power over Ethernet not detected at camera.",
+            "solution": "Replaced damaged network cable and re-terminated connection. Camera back online with clear image.",
+            "status": "OK",
+            "engine": "hybrid",
+            "origins": [
+              "semantic"
+            ],
+            "relevant": true
+          }
+        ],
+        "recall_at_k": 1.0
+      }
+    }
+  },
+  {
+    "query": {
+      "id": "e3",
+      "query": "power supply failure",
+      "difficulty": "easy",
+      "relevant_keywords": [
+        [
+          "power"
+        ],
+        [
+          "psu"
+        ],
+        [
+          "supply"
+        ]
+      ],
+      "judge": "auto"
+    },
+    "engines": {
+      "keyword": {
+        "elapsed_ms": 55,
+        "hits": [
+          {
+            "id": "m004165",
+            "score": 1.0,
+            "date": "2021-05-09",
+            "casino": "Casino Beta",
+            "department": "Slots",
+            "equipment": "Slot #211",
+            "problem": "Display flickers and resets randomly. Power supply voltage unstable. Suspect capacitor failure.",
+            "solution": "Replaced power supply unit and checked all internal connections. Ran 2 hours of continuous play, no issues.",
+            "status": "Working",
+            "engine": "keyword",
+            "relevant": true
+          },
+          {
+            "id": "m004193",
+            "score": 0.7778,
+            "date": "2021-12-12",
+            "casino": "Venue Eta",
+            "department": "IT",
+            "equipment": "Camera CT12",
+            "problem": "Camera shows black screen on recorder. Physical power indicator off, likely failed PSU.",
+            "solution": "Replaced power supply unit and reconnected Ethernet. Verified live feed and recording.",
+            "status": "OK",
+            "engine": "keyword",
+            "relevant": true
+          },
+          {
+            "id": "m004208",
+            "score": 0.7778,
+            "date": "2024-10-23",
+            "casino": "Casino Alpha",
+            "department": "Tables",
+            "equipment": "Poker table 12",
+            "problem": "Table light flickering and one LED strip is dead. Caused dark spots during night shift.",
+            "solution": "Replaced LED strip, checked power supply. All lights steady.",
+            "status": "OK",
+            "engine": "keyword",
+            "relevant": true
+          },
+          {
+            "id": "m004807",
+            "score": 0.7778,
+            "date": "2024-04-26",
+            "casino": "Regional Office A",
+            "department": "IT",
+            "equipment": "Projector \u2013 Event Room",
+            "problem": "Projector not powering on. Power supply board failed.",
+            "solution": "Swapped power supply board and tested lamp.",
+            "status": "Awaiting parts - Working",
+            "engine": "keyword",
+            "relevant": true
+          },
+          {
+            "id": "m000340",
+            "score": 0.7222,
+            "date": "2022-05-08",
+            "casino": "Casino Zeta",
+            "department": "IT",
+            "equipment": "AV Rack 2",
+            "problem": "Power supply for the audio system hums loudly, causing buzz in the main lounge speakers.",
+            "solution": "Replaced power supply with a filtered unit. Hum eliminated.",
+            "status": "OK",
+            "engine": "keyword",
+            "relevant": true
+          }
+        ],
+        "recall_at_k": 1.0
+      },
+      "semantic": {
+        "elapsed_ms": 12,
+        "hits": [
+          {
+            "id": "m003023",
+            "score": 0.7242,
+            "date": "2023-07-01",
+            "casino": "Regional Office B",
+            "department": "Gaming Floor",
+            "equipment": "Slot #3",
+            "problem": "machine won't boot after power outage on Slot #3",
+            "solution": "performed RAM clear and reboot",
+            "status": "Working",
+            "engine": "semantic",
+            "relevant": true
+          },
+          {
+            "id": "m001906",
+            "score": 0.7217,
+            "date": "2025-05-05",
+            "casino": "Venue Kappa",
+            "department": "Gaming Floor",
+            "equipment": "Slot #11",
+            "problem": "machine won't boot after power outage on Slot #11",
+            "solution": "performed RAM clear and reboot",
+            "status": "Escalated",
+            "engine": "semantic",
+            "relevant": true
+          },
+          {
+            "id": "m004969",
+            "score": 0.7215,
+            "date": "2020-06-02",
+            "casino": "Regional Office A",
+            "department": "Gaming Floor",
+            "equipment": "Slot #373",
+            "problem": "machine won't boot after power outage on Slot #373",
+            "solution": "performed RAM clear and reboot",
+            "status": "Completed",
+            "engine": "semantic",
+            "relevant": true
+          },
+          {
+            "id": "m002341",
+            "score": 0.7207,
+            "date": "2020-10-19",
+            "casino": "Venue Theta",
+            "department": "Gaming Floor",
+            "equipment": "Slot #399",
+            "problem": "machine won't boot after power outage on Slot #399",
+            "solution": "performed RAM clear and reboot",
+            "status": "Completed",
+            "engine": "semantic",
+            "relevant": true
+          },
+          {
+            "id": "m003077",
+            "score": 0.7206,
+            "date": "2021-06-26",
+            "casino": "Venue Iota",
+            "department": "Gaming Floor",
+            "equipment": "Slot #464",
+            "problem": "machine won't boot after power outage on Slot #464",
+            "solution": "performed RAM clear and reboot",
+            "status": "OK",
+            "engine": "semantic",
+            "relevant": true
+          }
+        ],
+        "recall_at_k": 1.0
+      },
+      "hybrid": {
+        "elapsed_ms": 68,
+        "hits": [
+          {
+            "id": "m004165",
+            "score": 0.01639,
+            "date": "2021-05-09",
+            "casino": "Casino Beta",
+            "department": "Slots",
+            "equipment": "Slot #211",
+            "problem": "Display flickers and resets randomly. Power supply voltage unstable. Suspect capacitor failure.",
+            "solution": "Replaced power supply unit and checked all internal connections. Ran 2 hours of continuous play, no issues.",
+            "status": "Working",
+            "engine": "hybrid",
+            "origins": [
+              "keyword"
+            ],
+            "relevant": true
+          },
+          {
+            "id": "m000206",
+            "score": 0.01639,
+            "date": "2024-03-02",
+            "casino": "Casino Alpha",
+            "department": "Gaming Floor",
+            "equipment": "Slot #60",
+            "problem": "machine won't boot after power outage on Slot #60",
+            "solution": "performed RAM clear and reboot",
+            "status": "Working",
+            "engine": "hybrid",
+            "origins": [
+              "semantic"
+            ],
+            "relevant": true
+          },
+          {
+            "id": "m004193",
+            "score": 0.01613,
+            "date": "2021-12-12",
+            "casino": "Venue Eta",
+            "department": "IT",
+            "equipment": "Camera CT12",
+            "problem": "Camera shows black screen on recorder. Physical power indicator off, likely failed PSU.",
+            "solution": "Replaced power supply unit and reconnected Ethernet. Verified live feed and recording.",
+            "status": "OK",
+            "engine": "hybrid",
+            "origins": [
+              "keyword"
+            ],
+            "relevant": true
+          },
+          {
+            "id": "m003023",
+            "score": 0.01613,
+            "date": "2023-07-01",
+            "casino": "Regional Office B",
+            "department": "Gaming Floor",
+            "equipment": "Slot #3",
+            "problem": "machine won't boot after power outage on Slot #3",
+            "solution": "performed RAM clear and reboot",
+            "status": "Working",
+            "engine": "hybrid",
+            "origins": [
+              "semantic"
+            ],
+            "relevant": true
+          },
+          {
+            "id": "m004208",
+            "score": 0.01587,
+            "date": "2024-10-23",
+            "casino": "Casino Alpha",
+            "department": "Tables",
+            "equipment": "Poker table 12",
+            "problem": "Table light flickering and one LED strip is dead. Caused dark spots during night shift.",
+            "solution": "Replaced LED strip, checked power supply. All lights steady.",
+            "status": "OK",
+            "engine": "hybrid",
+            "origins": [
+              "keyword"
+            ],
+            "relevant": true
+          }
+        ],
+        "recall_at_k": 1.0
+      }
+    }
+  },
+  {
+    "query": {
+      "id": "p1",
+      "query": "machine keeps shutting off by itself",
+      "difficulty": "paraphrase",
+      "relevant_keywords": [
+        [
+          "reboot"
+        ],
+        [
+          "restart"
+        ],
+        [
+          "shut",
+          "off"
+        ],
+        [
+          "power",
+          "off"
+        ]
+      ],
+      "judge": "auto"
+    },
+    "engines": {
+      "keyword": {
+        "elapsed_ms": 79,
+        "hits": [
+          {
+            "id": "m002487",
+            "score": 1.0,
+            "date": "2020-11-10",
+            "casino": "Regional Office A",
+            "department": "Gaming Floor",
+            "equipment": "Slot #345",
+            "problem": "Game keeps freezing on bonus round, screen goes black and reboots itself after a few minutes.",
+            "solution": "Replaced faulty RAM module in the game board. Ran self-test and cycled power twice.",
+            "status": "OK",
+            "engine": "keyword",
+            "relevant": true
+          },
+          {
+            "id": "m000548",
+            "score": 0.7692,
+            "date": "2025-04-15",
+            "casino": "Casino Epsilon",
+            "department": "Slots",
+            "equipment": "Slot #567",
+            "problem": "Touchscreen unresponsive in bottom-left corner. Calibration off. Players frustrated.",
+            "solution": "Ran touchscreen calibration utility. Rebooted machine. All zones respond accurately.",
+            "status": "Working",
+            "engine": "keyword",
+            "relevant": true
+          },
+          {
+            "id": "m000585",
+            "score": 0.7692,
+            "date": "2025-10-14",
+            "casino": "Venue Eta",
+            "department": "Tables",
+            "equipment": "Blackjack Table 14",
+            "problem": "Card shoe occasionally double-feeds, causing dispute during high-limit play. Shuffle machine alignment seems off.",
+            "solution": "Realigned shoe ramp and tension spring. Replaced worn pickup roller and tested with 200 cards.",
+            "status": "OK",
+            "engine": "keyword",
+            "relevant": false
+          },
+          {
+            "id": "m000810",
+            "score": 0.7692,
+            "date": "2024-02-14",
+            "casino": "Venue Eta",
+            "department": "General",
+            "equipment": "Restroom Faucet East Wing",
+            "problem": "Hand sensor keeps turning off mid-use, causing guests to wave hands repeatedly. Also low water pressure.",
+            "solution": "Replaced the infrared sensor and cleaned the aerator. Water flow back to normal.",
+            "status": "Working",
+            "engine": "keyword",
+            "relevant": false
+          },
+          {
+            "id": "m000605",
+            "score": 0.7692,
+            "date": "2024-01-16",
+            "casino": "Casino Gamma",
+            "department": "General",
+            "equipment": "Floor buffer 2",
+            "problem": "Floor buffer motor overheating and shutting off after 10 minutes of use, leaving buffing job incomplete.",
+            "solution": "Cleaned motor vents, replaced worn carbon brushes. Tested for 30 minutes continuous operation.",
+            "status": "Working",
+            "engine": "keyword",
+            "relevant": true
+          }
+        ],
+        "recall_at_k": 0.6
+      },
+      "semantic": {
+        "elapsed_ms": 11,
+        "hits": [
+          {
+            "id": "m003729",
+            "score": 0.7521,
+            "date": "2022-07-23",
+            "casino": "Casino Delta",
+            "department": "IT",
+            "equipment": "Server 3",
+            "problem": "Server overheated and shut down during peak hours. Fans not spinning due to dust and dead fan motor.",
+            "solution": "Replaced three fans, cleaned heat sinks, and applied thermal paste. Monitored temperature for 2 hours within range.",
+            "status": "OK",
+            "engine": "semantic",
+            "relevant": false
+          },
+          {
+            "id": "m003182",
+            "score": 0.7368,
+            "date": "2025-05-20",
+            "casino": "Venue Eta",
+            "department": "IT",
+            "equipment": "Server 3",
+            "problem": "Server overheats and shuts down under load, cooling fans running at max but still high temp.",
+            "solution": "Replaced thermal paste and cleaned dust from heatsinks; temp dropped 20C.",
+            "status": "Escalated",
+            "engine": "semantic",
+            "relevant": false
+          },
+          {
+            "id": "m004045",
+            "score": 0.7287,
+            "date": "2021-05-23",
+            "casino": "Casino Beta",
+            "department": "IT",
+            "equipment": "Server 3",
+            "problem": "Server randomly reboots, event log shows thermal shutdown. Fans running slow.",
+            "solution": "Replaced failed fan and cleaned dust from heatsink. Temp normal.",
+            "status": "OK",
+            "engine": "semantic",
+            "relevant": true
+          },
+          {
+            "id": "m002920",
+            "score": 0.7237,
+            "date": "2022-12-10",
+            "casino": "Venue Iota",
+            "department": "General",
+            "equipment": "Restroom Faucet 3",
+            "problem": "Automatic faucet not turning off, running continuously. Solenoid valve stuck open.",
+            "solution": "Replaced solenoid, cleaned sensor lens, tested multiple times. Shuts off correctly.",
+            "status": "OK",
+            "engine": "semantic",
+            "relevant": true
+          },
+          {
+            "id": "m002475",
+            "score": 0.7235,
+            "date": "2025-10-23",
+            "casino": "Casino Zeta",
+            "department": "IT",
+            "equipment": "Projector PJ-9",
+            "problem": "Projector shutting down after 10 minutes due to overheating. Lamp indicator blinks orange.",
+            "solution": "Cleaned air filters and exhaust fan. Verified lamp temperature within normal range.",
+            "status": "Working",
+            "engine": "semantic",
+            "relevant": false
+          }
+        ],
+        "recall_at_k": 0.4
+      },
+      "hybrid": {
+        "elapsed_ms": 83,
+        "hits": [
+          {
+            "id": "m001118",
+            "score": 0.03008,
+            "date": "2025-05-18",
+            "casino": "Regional Office B",
+            "department": "IT",
+            "equipment": "Projector PJ-5",
+            "problem": "Projector lamp shutting off after 5 minutes; no error code.",
+            "solution": "Replaced lamp and cleaned filter; runs continuously now.",
+            "status": "OK",
+            "engine": "hybrid",
+            "origins": [
+              "keyword",
+              "semantic"
+            ],
+            "relevant": true
+          },
+          {
+            "id": "m000605",
+            "score": 0.02821,
+            "date": "2024-01-16",
+            "casino": "Casino Gamma",
+            "department": "General",
+            "equipment": "Floor buffer 2",
+            "problem": "Floor buffer motor overheating and shutting off after 10 minutes of use, leaving buffing job incomplete.",
+            "solution": "Cleaned motor vents, replaced worn carbon brushes. Tested for 30 minutes continuous operation.",
+            "status": "Working",
+            "engine": "hybrid",
+            "origins": [
+              "keyword",
+              "semantic"
+            ],
+            "relevant": true
+          },
+          {
+            "id": "m004154",
+            "score": 0.02721,
+            "date": "2024-02-10",
+            "casino": "Casino Beta",
+            "department": "General",
+            "equipment": "Restroom 3",
+            "problem": "Automatic faucet not shutting off, runs continuously; overflow risk, water waste.",
+            "solution": "Replaced solenoid valve, adjusted flow sensor sensitivity, tested cycle on/off.",
+            "status": "Working",
+            "engine": "hybrid",
+            "origins": [
+              "keyword",
+              "semantic"
+            ],
+            "relevant": true
+          },
+          {
+            "id": "m002487",
+            "score": 0.01639,
+            "date": "2020-11-10",
+            "casino": "Regional Office A",
+            "department": "Gaming Floor",
+            "equipment": "Slot #345",
+            "problem": "Game keeps freezing on bonus round, screen goes black and reboots itself after a few minutes.",
+            "solution": "Replaced faulty RAM module in the game board. Ran self-test and cycled power twice.",
+            "status": "OK",
+            "engine": "hybrid",
+            "origins": [
+              "keyword"
+            ],
+            "relevant": true
+          },
+          {
+            "id": "m003729",
+            "score": 0.01639,
+            "date": "2022-07-23",
+            "casino": "Casino Delta",
+            "department": "IT",
+            "equipment": "Server 3",
+            "problem": "Server overheated and shut down during peak hours. Fans not spinning due to dust and dead fan motor.",
+            "solution": "Replaced three fans, cleaned heat sinks, and applied thermal paste. Monitored temperature for 2 hours within range.",
+            "status": "OK",
+            "engine": "hybrid",
+            "origins": [
+              "semantic"
+            ],
+            "relevant": false
+          }
+        ],
+        "recall_at_k": 0.8
+      }
+    }
+  },
+  {
+    "query": {
+      "id": "p2",
+      "query": "coin hopper eats notes and won't dispense",
+      "difficulty": "paraphrase",
+      "relevant_keywords": [
+        [
+          "hopper"
+        ],
+        [
+          "bill",
+          "acceptor"
+        ],
+        [
+          "note"
+        ],
+        [
+          "jam"
+        ]
+      ],
+      "judge": "auto"
+    },
+    "engines": {
+      "keyword": {
+        "elapsed_ms": 80,
+        "hits": [
+          {
+            "id": "m003842",
+            "score": 1.0,
+            "date": "2021-12-08",
+            "casino": "Venue Eta",
+            "department": "Gaming Floor",
+            "equipment": "Slot #231",
+            "problem": "Coin hopper jams on payout, dispenses fewer coins than credited for small wins.",
+            "solution": "Removed foreign object from hopper, recalibrated optic sensor, test payout full.",
+            "status": "Working",
+            "engine": "keyword",
+            "relevant": true
+          },
+          {
+            "id": "m000190",
+            "score": 0.875,
+            "date": "2024-08-15",
+            "casino": "Casino Epsilon",
+            "department": "Slots",
+            "equipment": "Slot #102",
+            "problem": "Coin hopper jams frequently, coins not dispensing correctly, causes tilt error after every 20 payouts.",
+            "solution": "Removed hopper, cleaned coin path, replaced worn diverter, recalibrated sensors.",
+            "status": "Working",
+            "engine": "keyword",
+            "relevant": true
+          },
+          {
+            "id": "m002427",
+            "score": 0.875,
+            "date": "2021-05-28",
+            "casino": "Regional Office A",
+            "department": "Slots",
+            "equipment": "Slot #112",
+            "problem": "Coin hopper jamming, coins not dispensing correctly, error 34 on display, player reported getting stuck mid-payout.",
+            "solution": "Cleared jammed coins, lubed payout mechanism, tested 20 payouts.",
+            "status": "Working",
+            "engine": "keyword",
+            "relevant": true
+          },
+          {
+            "id": "m003399",
+            "score": 0.875,
+            "date": "2025-10-15",
+            "casino": "Venue Eta",
+            "department": "Gaming Floor",
+            "equipment": "Slot #345",
+            "problem": "Coin hopper jams when dispensing payout over 40 coins. Overpay error triggered twice during night shift.",
+            "solution": "Replaced worn payout lever and adjusted hopper sensor gap. Ran payout test sequence, now dispensing 100 coins smoothly.",
+            "status": "OK",
+            "engine": "keyword",
+            "relevant": true
+          },
+          {
+            "id": "m004580",
+            "score": 0.875,
+            "date": "2022-05-08",
+            "casino": "Casino Zeta",
+            "department": "Slots",
+            "equipment": "Slot #2021",
+            "problem": "Coin-out jam, bills not dispensing correctly.",
+            "solution": "Cleared jammed coins and recalibrated hopper sensor.",
+            "status": "OK",
+            "engine": "keyword",
+            "relevant": true
+          }
+        ],
+        "recall_at_k": 1.0
+      },
+      "semantic": {
+        "elapsed_ms": 10,
+        "hits": [
+          {
+            "id": "m001318",
+            "score": 0.8477,
+            "date": "2022-06-07",
+            "casino": "Venue Theta",
+            "department": "Gaming Floor",
+            "equipment": "Slot #412",
+            "problem": "coin hopper empty on Slot #412",
+            "solution": "refilled coin hopper",
+            "status": "Escalated",
+            "engine": "semantic",
+            "relevant": true
+          },
+          {
+            "id": "m001353",
+            "score": 0.8477,
+            "date": "2023-12-16",
+            "casino": "Casino Alpha",
+            "department": "Gaming Floor",
+            "equipment": "Slot #299",
+            "problem": "coin hopper empty on Slot #299",
+            "solution": "refilled coin hopper",
+            "status": "Escalated",
+            "engine": "semantic",
+            "relevant": true
+          },
+          {
+            "id": "m004580",
+            "score": 0.8476,
+            "date": "2022-05-08",
+            "casino": "Casino Zeta",
+            "department": "Slots",
+            "equipment": "Slot #2021",
+            "problem": "Coin-out jam, bills not dispensing correctly.",
+            "solution": "Cleared jammed coins and recalibrated hopper sensor.",
+            "status": "OK",
+            "engine": "semantic",
+            "relevant": true
+          },
+          {
+            "id": "m003896",
+            "score": 0.8453,
+            "date": "2020-06-04",
+            "casino": "Casino Delta",
+            "department": "Gaming Floor",
+            "equipment": "Slot #329",
+            "problem": "coin hopper empty on Slot #329",
+            "solution": "refilled coin hopper",
+            "status": "Awaiting parts - Working",
+            "engine": "semantic",
+            "relevant": true
+          },
+          {
+            "id": "m000520",
+            "score": 0.8448,
+            "date": "2025-08-27",
+            "casino": "Regional Office A",
+            "department": "Gaming Floor",
+            "equipment": "Slot #268",
+            "problem": "coin hopper empty on Slot #268",
+            "solution": "refilled coin hopper",
+            "status": "Working",
+            "engine": "semantic",
+            "relevant": true
+          }
+        ],
+        "recall_at_k": 1.0
+      },
+      "hybrid": {
+        "elapsed_ms": 103,
+        "hits": [
+          {
+            "id": "m004580",
+            "score": 0.03126,
+            "date": "2022-05-08",
+            "casino": "Casino Zeta",
+            "department": "Slots",
+            "equipment": "Slot #2021",
+            "problem": "Coin-out jam, bills not dispensing correctly.",
+            "solution": "Cleared jammed coins and recalibrated hopper sensor.",
+            "status": "OK",
+            "engine": "hybrid",
+            "origins": [
+              "keyword",
+              "semantic"
+            ],
+            "relevant": true
+          },
+          {
+            "id": "m003842",
+            "score": 0.01639,
+            "date": "2021-12-08",
+            "casino": "Venue Eta",
+            "department": "Gaming Floor",
+            "equipment": "Slot #231",
+            "problem": "Coin hopper jams on payout, dispenses fewer coins than credited for small wins.",
+            "solution": "Removed foreign object from hopper, recalibrated optic sensor, test payout full.",
+            "status": "Working",
+            "engine": "hybrid",
+            "origins": [
+              "keyword"
+            ],
+            "relevant": true
+          },
+          {
+            "id": "m001318",
+            "score": 0.01639,
+            "date": "2022-06-07",
+            "casino": "Venue Theta",
+            "department": "Gaming Floor",
+            "equipment": "Slot #412",
+            "problem": "coin hopper empty on Slot #412",
+            "solution": "refilled coin hopper",
+            "status": "Escalated",
+            "engine": "hybrid",
+            "origins": [
+              "semantic"
+            ],
+            "relevant": true
+          },
+          {
+            "id": "m000190",
+            "score": 0.01613,
+            "date": "2024-08-15",
+            "casino": "Casino Epsilon",
+            "department": "Slots",
+            "equipment": "Slot #102",
+            "problem": "Coin hopper jams frequently, coins not dispensing correctly, causes tilt error after every 20 payouts.",
+            "solution": "Removed hopper, cleaned coin path, replaced worn diverter, recalibrated sensors.",
+            "status": "Working",
+            "engine": "hybrid",
+            "origins": [
+              "keyword"
+            ],
+            "relevant": true
+          },
+          {
+            "id": "m001353",
+            "score": 0.01613,
+            "date": "2023-12-16",
+            "casino": "Casino Alpha",
+            "department": "Gaming Floor",
+            "equipment": "Slot #299",
+            "problem": "coin hopper empty on Slot #299",
+            "solution": "refilled coin hopper",
+            "status": "Escalated",
+            "engine": "hybrid",
+            "origins": [
+              "semantic"
+            ],
+            "relevant": true
+          }
+        ],
+        "recall_at_k": 1.0
+      }
+    }
+  },
+  {
+    "query": {
+      "id": "p3",
+      "query": "video feed is dark and grainy",
+      "difficulty": "paraphrase",
+      "relevant_keywords": [
+        [
+          "camera"
+        ],
+        [
+          "exposure"
+        ],
+        [
+          "dark"
+        ],
+        [
+          "focus"
+        ],
+        [
+          "blur"
+        ]
+      ],
+      "judge": "auto"
+    },
+    "engines": {
+      "keyword": {
+        "elapsed_ms": 63,
+        "hits": [
+          {
+            "id": "m002540",
+            "score": 1.0,
+            "date": "2020-10-27",
+            "casino": "Venue Kappa",
+            "department": "IT",
+            "equipment": "Camera CT12",
+            "problem": "Camera image dark and grainy, IR not engaging at night. No video feed for 2 hours.",
+            "solution": "Replaced IR illuminator board and cleaned lens. Image clear.",
+            "status": "Working",
+            "engine": "keyword",
+            "relevant": true
+          },
+          {
+            "id": "m000568",
+            "score": 0.55,
+            "date": "2020-06-25",
+            "casino": "Casino Gamma",
+            "department": "IT",
+            "equipment": "Camera CT12",
+            "problem": "Camera feed has heavy static and occasional signal loss. PTZ control works but picture is grainy.",
+            "solution": "Replaced BNC connector, ran new coax cable to nearest switch, adjusted gain settings.",
+            "status": "OK",
+            "engine": "keyword",
+            "relevant": true
+          },
+          {
+            "id": "m000133",
+            "score": 0.5,
+            "date": "2023-01-09",
+            "casino": "Venue Eta",
+            "department": "IT",
+            "equipment": "Camera CT12",
+            "problem": "Video feed frozen with no timestamp update. Camera offline in monitoring console.",
+            "solution": "Rebooted camera via POE. Updated firmware. Confirmed feed live and recording.",
+            "status": "OK",
+            "engine": "keyword",
+            "relevant": true
+          },
+          {
+            "id": "m000158",
+            "score": 0.5,
+            "date": "2025-04-28",
+            "casino": "Casino Alpha",
+            "department": "IT",
+            "equipment": "Camera CT12",
+            "problem": "Camera feed flickering and losing sync. Video pixelates on recorder.",
+            "solution": "Replaced faulty BNC connector and reseated cable.",
+            "status": "Working",
+            "engine": "keyword",
+            "relevant": true
+          },
+          {
+            "id": "m000220",
+            "score": 0.5,
+            "date": "2022-07-02",
+            "casino": "Venue Kappa",
+            "department": "IT",
+            "equipment": "Camera CT12",
+            "problem": "Camera feed flickering and losing sync every few minutes. Video quality degraded, likely cable interference.",
+            "solution": "Replaced coax cable with shielded CAT6, tightened BNC connectors, and updated camera firmware. Feed stable now.",
+            "status": "Working",
+            "engine": "keyword",
+            "relevant": true
+          }
+        ],
+        "recall_at_k": 1.0
+      },
+      "semantic": {
+        "elapsed_ms": 10,
+        "hits": [
+          {
+            "id": "m002540",
+            "score": 0.7881,
+            "date": "2020-10-27",
+            "casino": "Venue Kappa",
+            "department": "IT",
+            "equipment": "Camera CT12",
+            "problem": "Camera image dark and grainy, IR not engaging at night. No video feed for 2 hours.",
+            "solution": "Replaced IR illuminator board and cleaned lens. Image clear.",
+            "status": "Working",
+            "engine": "semantic",
+            "relevant": true
+          },
+          {
+            "id": "m000612",
+            "score": 0.7699,
+            "date": "2021-11-14",
+            "casino": "Venue Theta",
+            "department": "IT",
+            "equipment": "Camera CT12",
+            "problem": "Video feed dropping every few minutes, pixelation on playback. Likely network congestion or cable damage.",
+            "solution": "Swapped out damaged Ethernet cable and updated camera firmware. Feed stable over 2-hour observation.",
+            "status": "Working",
+            "engine": "semantic",
+            "relevant": true
+          },
+          {
+            "id": "m002436",
+            "score": 0.7577,
+            "date": "2023-06-24",
+            "casino": "Casino Beta",
+            "department": "IT",
+            "equipment": "Camera CT12",
+            "problem": "Video feed dropping out every 5 seconds, shows static then recovers. Camera housing has moisture inside lens causing fog.",
+            "solution": "Removed housing, dried lens with silica gel, replaced gasket and added desiccant pack. Feed now stable.",
+            "status": "OK",
+            "engine": "semantic",
+            "relevant": true
+          },
+          {
+            "id": "m000362",
+            "score": 0.7572,
+            "date": "2025-07-11",
+            "casino": "Regional Office A",
+            "department": "IT",
+            "equipment": "Camera CT12",
+            "problem": "Camera feed fuzzy and pixelating; IR night mode not engaging after 8 PM.",
+            "solution": "Cleaned lens, replaced IR LED array, updated camera firmware. Image sharp.",
+            "status": "Working",
+            "engine": "semantic",
+            "relevant": true
+          },
+          {
+            "id": "m002815",
+            "score": 0.7567,
+            "date": "2024-09-18",
+            "casino": "Casino Zeta",
+            "department": "IT",
+            "equipment": "Camera CT12",
+            "problem": "Video feed flickers with horizontal lines and occasional drop to black. Lens appears clean but signal unstable in DVR.",
+            "solution": "Replaced coaxial cable and tightened BNC connectors. Switched to backup channel in recorder. Feed now stable at 30fps.",
+            "status": "OK",
+            "engine": "semantic",
+            "relevant": true
+          }
+        ],
+        "recall_at_k": 1.0
+      },
+      "hybrid": {
+        "elapsed_ms": 95,
+        "hits": [
+          {
+            "id": "m002540",
+            "score": 0.03279,
+            "date": "2020-10-27",
+            "casino": "Venue Kappa",
+            "department": "IT",
+            "equipment": "Camera CT12",
+            "problem": "Camera image dark and grainy, IR not engaging at night. No video feed for 2 hours.",
+            "solution": "Replaced IR illuminator board and cleaned lens. Image clear.",
+            "status": "Working",
+            "engine": "hybrid",
+            "origins": [
+              "keyword",
+              "semantic"
+            ],
+            "relevant": true
+          },
+          {
+            "id": "m000612",
+            "score": 0.03083,
+            "date": "2021-11-14",
+            "casino": "Venue Theta",
+            "department": "IT",
+            "equipment": "Camera CT12",
+            "problem": "Video feed dropping every few minutes, pixelation on playback. Likely network congestion or cable damage.",
+            "solution": "Swapped out damaged Ethernet cable and updated camera firmware. Feed stable over 2-hour observation.",
+            "status": "Working",
+            "engine": "hybrid",
+            "origins": [
+              "keyword",
+              "semantic"
+            ],
+            "relevant": true
+          },
+          {
+            "id": "m002436",
+            "score": 0.02853,
+            "date": "2023-06-24",
+            "casino": "Casino Beta",
+            "department": "IT",
+            "equipment": "Camera CT12",
+            "problem": "Video feed dropping out every 5 seconds, shows static then recovers. Camera housing has moisture inside lens causing fog.",
+            "solution": "Removed housing, dried lens with silica gel, replaced gasket and added desiccant pack. Feed now stable.",
+            "status": "OK",
+            "engine": "hybrid",
+            "origins": [
+              "keyword",
+              "semantic"
+            ],
+            "relevant": true
+          },
+          {
+            "id": "m000220",
+            "score": 0.02804,
+            "date": "2022-07-02",
+            "casino": "Venue Kappa",
+            "department": "IT",
+            "equipment": "Camera CT12",
+            "problem": "Camera feed flickering and losing sync every few minutes. Video quality degraded, likely cable interference.",
+            "solution": "Replaced coax cable with shielded CAT6, tightened BNC connectors, and updated camera firmware. Feed stable now.",
+            "status": "Working",
+            "engine": "hybrid",
+            "origins": [
+              "keyword",
+              "semantic"
+            ],
+            "relevant": true
+          },
+          {
+            "id": "m002004",
+            "score": 0.02791,
+            "date": "2022-08-02",
+            "casino": "Casino Epsilon",
+            "department": "IT",
+            "equipment": "Camera CT12",
+            "problem": "Video feed goes black for 2-3 seconds every few minutes. No error in the software, just signal drop.",
+            "solution": "Replaced frayed BNC connector and tightened grounding. Feed stable for 6 hours.",
+            "status": "OK",
+            "engine": "hybrid",
+            "origins": [
+              "keyword",
+              "semantic"
+            ],
+            "relevant": true
+          }
+        ],
+        "recall_at_k": 1.0
+      }
+    }
+  },
+  {
+    "query": {
+      "id": "p4",
+      "query": "cabinet unresponsive to touch",
+      "difficulty": "paraphrase",
+      "relevant_keywords": [
+        [
+          "touch"
+        ],
+        [
+          "screen"
+        ],
+        [
+          "calibrat"
+        ],
+        [
+          "unresponsive"
+        ]
+      ],
+      "judge": "auto"
+    },
+    "engines": {
+      "keyword": {
+        "elapsed_ms": 66,
+        "hits": [
+          {
+            "id": "m001540",
+            "score": 1.0,
+            "date": "2020-08-22",
+            "casino": "Casino Gamma",
+            "department": "Gaming Floor",
+            "equipment": "Slot #1776",
+            "problem": "Touchscreen ghost touches, selects wrong games. Maybe static or digitizer issue.",
+            "solution": "Grounded cabinet and replaced touch panel. Calibrated, no ghost touches.",
+            "status": "Working",
+            "engine": "keyword",
+            "relevant": true
+          },
+          {
+            "id": "m004470",
+            "score": 0.875,
+            "date": "2021-12-29",
+            "casino": "Casino Delta",
+            "department": "Slots",
+            "equipment": "Slot #120",
+            "problem": "Touchscreen unresponsive on top right corner. Buttons work fine.",
+            "solution": "Recalibrated touchscreen, cleaned residue. Rebooted machine, touch response normal.",
+            "status": "OK",
+            "engine": "keyword",
+            "relevant": true
+          },
+          {
+            "id": "m000281",
+            "score": 0.8125,
+            "date": "2022-11-03",
+            "casino": "Venue Kappa",
+            "department": "IT",
+            "equipment": "Cashier Terminal C-3",
+            "problem": "Touchscreen intermittently unresponsive, mouse works fine. Possible driver conflict after update.",
+            "solution": "Rolled back touch driver, recalibrated. Used for 1 hour across 15 transactions, no issues.",
+            "status": "OK",
+            "engine": "keyword",
+            "relevant": true
+          },
+          {
+            "id": "m000912",
+            "score": 0.8125,
+            "date": "2022-09-12",
+            "casino": "Casino Alpha",
+            "department": "IT",
+            "equipment": "POS Terminal 9",
+            "problem": "Touchscreen unresponsive in bottom right quadrant. Reboot doesn't fix.",
+            "solution": "Recalibrated touch driver and replaced overlay. All quadrants respond.",
+            "status": "OK",
+            "engine": "keyword",
+            "relevant": true
+          },
+          {
+            "id": "m001273",
+            "score": 0.8125,
+            "date": "2021-02-04",
+            "casino": "Venue Eta",
+            "department": "Slots",
+            "equipment": "Slot #567",
+            "problem": "Touchscreen unresponsive on right side; player unable to select bet amounts. Reboot didn't help.",
+            "solution": "Replaced touchscreen digitizer, recalibrated. All touch zones work.",
+            "status": "Working",
+            "engine": "keyword",
+            "relevant": true
+          }
+        ],
+        "recall_at_k": 1.0
+      },
+      "semantic": {
+        "elapsed_ms": 10,
+        "hits": [
+          {
+            "id": "m004470",
+            "score": 0.7868,
+            "date": "2021-12-29",
+            "casino": "Casino Delta",
+            "department": "Slots",
+            "equipment": "Slot #120",
+            "problem": "Touchscreen unresponsive on top right corner. Buttons work fine.",
+            "solution": "Recalibrated touchscreen, cleaned residue. Rebooted machine, touch response normal.",
+            "status": "OK",
+            "engine": "semantic",
+            "relevant": true
+          },
+          {
+            "id": "m002168",
+            "score": 0.7814,
+            "date": "2023-10-28",
+            "casino": "Casino Delta",
+            "department": "IT",
+            "equipment": "POS Terminal 8",
+            "problem": "Touchscreen unresponsive in bottom right corner, making menu selection difficult for cashiers.",
+            "solution": "Recalibrated touchscreen and cleaned glass. Tested all quadrants.",
+            "status": "OK",
+            "engine": "semantic",
+            "relevant": true
+          },
+          {
+            "id": "m004186",
+            "score": 0.7801,
+            "date": "2025-12-28",
+            "casino": "Regional Office B",
+            "department": "Gaming Floor",
+            "equipment": "Slot #194",
+            "problem": "touch screen unresponsive on Slot #194",
+            "solution": "recalibrated touch sensor",
+            "status": "In Progress",
+            "engine": "semantic",
+            "relevant": true
+          },
+          {
+            "id": "m003806",
+            "score": 0.7801,
+            "date": "2022-12-31",
+            "casino": "Casino Alpha",
+            "department": "Gaming Floor",
+            "equipment": "Slot #194",
+            "problem": "touch screen unresponsive on Slot #194",
+            "solution": "recalibrated touch sensor",
+            "status": "Completed",
+            "engine": "semantic",
+            "relevant": true
+          },
+          {
+            "id": "m004075",
+            "score": 0.7792,
+            "date": "2024-11-20",
+            "casino": "Casino Epsilon",
+            "department": "Gaming Floor",
+            "equipment": "Slot #440",
+            "problem": "touch screen unresponsive on Slot #440",
+            "solution": "recalibrated touch sensor",
+            "status": "Working",
+            "engine": "semantic",
+            "relevant": true
+          }
+        ],
+        "recall_at_k": 1.0
+      },
+      "hybrid": {
+        "elapsed_ms": 74,
+        "hits": [
+          {
+            "id": "m004470",
+            "score": 0.03252,
+            "date": "2021-12-29",
+            "casino": "Casino Delta",
+            "department": "Slots",
+            "equipment": "Slot #120",
+            "problem": "Touchscreen unresponsive on top right corner. Buttons work fine.",
+            "solution": "Recalibrated touchscreen, cleaned residue. Rebooted machine, touch response normal.",
+            "status": "OK",
+            "engine": "hybrid",
+            "origins": [
+              "keyword",
+              "semantic"
+            ],
+            "relevant": true
+          },
+          {
+            "id": "m002486",
+            "score": 0.02858,
+            "date": "2023-12-13",
+            "casino": "Venue Eta",
+            "department": "Slots",
+            "equipment": "Slot #567",
+            "problem": "Touchscreen unresponsive in bottom right corner, buttons working fine.",
+            "solution": "Recalibrated touch controller, cleaned screen edges, replaced control board.",
+            "status": "Working",
+            "engine": "hybrid",
+            "origins": [
+              "keyword",
+              "semantic"
+            ],
+            "relevant": true
+          },
+          {
+            "id": "m001540",
+            "score": 0.01639,
+            "date": "2020-08-22",
+            "casino": "Casino Gamma",
+            "department": "Gaming Floor",
+            "equipment": "Slot #1776",
+            "problem": "Touchscreen ghost touches, selects wrong games. Maybe static or digitizer issue.",
+            "solution": "Grounded cabinet and replaced touch panel. Calibrated, no ghost touches.",
+            "status": "Working",
+            "engine": "hybrid",
+            "origins": [
+              "keyword"
+            ],
+            "relevant": true
+          },
+          {
+            "id": "m002168",
+            "score": 0.01613,
+            "date": "2023-10-28",
+            "casino": "Casino Delta",
+            "department": "IT",
+            "equipment": "POS Terminal 8",
+            "problem": "Touchscreen unresponsive in bottom right corner, making menu selection difficult for cashiers.",
+            "solution": "Recalibrated touchscreen and cleaned glass. Tested all quadrants.",
+            "status": "OK",
+            "engine": "hybrid",
+            "origins": [
+              "semantic"
+            ],
+            "relevant": true
+          },
+          {
+            "id": "m000281",
+            "score": 0.01587,
+            "date": "2022-11-03",
+            "casino": "Venue Kappa",
+            "department": "IT",
+            "equipment": "Cashier Terminal C-3",
+            "problem": "Touchscreen intermittently unresponsive, mouse works fine. Possible driver conflict after update.",
+            "solution": "Rolled back touch driver, recalibrated. Used for 1 hour across 15 transactions, no issues.",
+            "status": "OK",
+            "engine": "hybrid",
+            "origins": [
+              "keyword"
+            ],
+            "relevant": true
+          }
+        ],
+        "recall_at_k": 1.0
+      }
+    }
+  },
+  {
+    "query": {
+      "id": "h1",
+      "query": "table game equipment where results are hard to see for camera",
+      "difficulty": "hard",
+      "relevant_keywords": [
+        [
+          "visibility"
+        ],
+        [
+          "exposure"
+        ],
+        [
+          "card"
+        ],
+        [
+          "spotlight"
+        ],
+        [
+          "glare"
+        ]
+      ],
+      "judge": "auto"
+    },
+    "engines": {
+      "keyword": {
+        "elapsed_ms": 105,
+        "hits": [
+          {
+            "id": "m004517",
+            "score": 1.0,
+            "date": "2025-11-24",
+            "casino": "Regional Office A",
+            "department": "IT",
+            "equipment": "Camera CT08",
+            "problem": "Camera feed flickering and losing sync every few minutes, makes it hard to monitor table games, possible signal interference.",
+            "solution": "Replaced video cable, tightened BNC connector, verified 24hr continuous recording.",
+            "status": "Working",
+            "engine": "keyword",
+            "relevant": false
+          },
+          {
+            "id": "m001255",
+            "score": 0.7368,
+            "date": "2023-11-12",
+            "casino": "Casino Gamma",
+            "department": "IT",
+            "equipment": "Camera CT12",
+            "problem": "Video feed freezes every 30-45 seconds, then recovers. Might be a bad power supply or interference from floor-level equipment.",
+            "solution": "Replaced power adapter and shielded video cable. Re-aimed camera. Feed stable.",
+            "status": "Working",
+            "engine": "keyword",
+            "relevant": false
+          },
+          {
+            "id": "m003014",
+            "score": 0.7368,
+            "date": "2020-05-20",
+            "casino": "Casino Delta",
+            "department": "IT",
+            "equipment": "Camera CT12",
+            "problem": "Video feed keeps freezing every 15-20 minutes for about 5 seconds. PTZ controls unresponsive during the freezes. Lens appears clean, no network alert.",
+            "solution": "Replaced faulty Ethernet cable and re-terminated the connection. Updated camera firmware and hard reset the device. Feed now stable.",
+            "status": "OK",
+            "engine": "keyword",
+            "relevant": false
+          },
+          {
+            "id": "m002815",
+            "score": 0.6316,
+            "date": "2024-09-18",
+            "casino": "Casino Zeta",
+            "department": "IT",
+            "equipment": "Camera CT12",
+            "problem": "Video feed flickers with horizontal lines and occasional drop to black. Lens appears clean but signal unstable in DVR.",
+            "solution": "Replaced coaxial cable and tightened BNC connectors. Switched to backup channel in recorder. Feed now stable at 30fps.",
+            "status": "OK",
+            "engine": "keyword",
+            "relevant": false
+          },
+          {
+            "id": "m000107",
+            "score": 0.5789,
+            "date": "2022-02-13",
+            "casino": "Venue Eta",
+            "department": "Electrical",
+            "equipment": "Panelboard PB-7",
+            "problem": "Breaker for table game area keeps tripping under load, causing occasional power blips to card shoes.",
+            "solution": "Tightened lugs, replaced breaker with higher-rated unit, checked for loose connections.",
+            "status": "OK",
+            "engine": "keyword",
+            "relevant": true
+          }
+        ],
+        "recall_at_k": 0.2
+      },
+      "semantic": {
+        "elapsed_ms": 12,
+        "hits": [
+          {
+            "id": "m001200",
+            "score": 0.7165,
+            "date": "2022-06-06",
+            "casino": "Venue Eta",
+            "department": "Tables",
+            "equipment": "Table 5 - Craps",
+            "problem": "Dealer reports dice bouncing oddly off one corner, likely worn felt or uneven table surface, players complaining about unfair rolls.",
+            "solution": "Replaced felt on table surface, checked for levelness, adjusted legs.",
+            "status": "OK",
+            "engine": "semantic",
+            "relevant": false
+          },
+          {
+            "id": "m002044",
+            "score": 0.7147,
+            "date": "2023-10-16",
+            "casino": "Casino Gamma",
+            "department": "Tables",
+            "equipment": "Craps Table 1",
+            "problem": "Dice stick sensor not registering bets. Also table light flickering under felt.",
+            "solution": "Replaced sensor, tightened light connections. Calibrated with test dice. All bets now tracked.",
+            "status": "OK",
+            "engine": "semantic",
+            "relevant": false
+          },
+          {
+            "id": "m004208",
+            "score": 0.7008,
+            "date": "2024-10-23",
+            "casino": "Casino Alpha",
+            "department": "Tables",
+            "equipment": "Poker table 12",
+            "problem": "Table light flickering and one LED strip is dead. Caused dark spots during night shift.",
+            "solution": "Replaced LED strip, checked power supply. All lights steady.",
+            "status": "OK",
+            "engine": "semantic",
+            "relevant": false
+          },
+          {
+            "id": "m004482",
+            "score": 0.6973,
+            "date": "2021-05-21",
+            "casino": "Casino Gamma",
+            "department": "Gaming Floor",
+            "equipment": "Craps Table 3",
+            "problem": "Craps table layout worn, dice bouncing inconsistently off one side, players complain of dead spots.",
+            "solution": "Replaced craps layout, applied new rubber surface, smoothed table edges.",
+            "status": "Working",
+            "engine": "semantic",
+            "relevant": false
+          },
+          {
+            "id": "m002639",
+            "score": 0.6966,
+            "date": "2024-02-29",
+            "casino": "Casino Alpha",
+            "department": "IT",
+            "equipment": "Camera CT12",
+            "problem": "Camera image is blurry and flickers, obscuring view of cashier cage.",
+            "solution": "Cleaned lens and replaced faulty video cable; image now clear and stable.",
+            "status": "OK",
+            "engine": "semantic",
+            "relevant": false
+          }
+        ],
+        "recall_at_k": 0.0
+      },
+      "hybrid": {
+        "elapsed_ms": 112,
+        "hits": [
+          {
+            "id": "m004517",
+            "score": 0.01639,
+            "date": "2025-11-24",
+            "casino": "Regional Office A",
+            "department": "IT",
+            "equipment": "Camera CT08",
+            "problem": "Camera feed flickering and losing sync every few minutes, makes it hard to monitor table games, possible signal interference.",
+            "solution": "Replaced video cable, tightened BNC connector, verified 24hr continuous recording.",
+            "status": "Working",
+            "engine": "hybrid",
+            "origins": [
+              "keyword"
+            ],
+            "relevant": false
+          },
+          {
+            "id": "m001200",
+            "score": 0.01639,
+            "date": "2022-06-06",
+            "casino": "Venue Eta",
+            "department": "Tables",
+            "equipment": "Table 5 - Craps",
+            "problem": "Dealer reports dice bouncing oddly off one corner, likely worn felt or uneven table surface, players complaining about unfair rolls.",
+            "solution": "Replaced felt on table surface, checked for levelness, adjusted legs.",
+            "status": "OK",
+            "engine": "hybrid",
+            "origins": [
+              "semantic"
+            ],
+            "relevant": false
+          },
+          {
+            "id": "m001255",
+            "score": 0.01613,
+            "date": "2023-11-12",
+            "casino": "Casino Gamma",
+            "department": "IT",
+            "equipment": "Camera CT12",
+            "problem": "Video feed freezes every 30-45 seconds, then recovers. Might be a bad power supply or interference from floor-level equipment.",
+            "solution": "Replaced power adapter and shielded video cable. Re-aimed camera. Feed stable.",
+            "status": "Working",
+            "engine": "hybrid",
+            "origins": [
+              "keyword"
+            ],
+            "relevant": false
+          },
+          {
+            "id": "m002044",
+            "score": 0.01613,
+            "date": "2023-10-16",
+            "casino": "Casino Gamma",
+            "department": "Tables",
+            "equipment": "Craps Table 1",
+            "problem": "Dice stick sensor not registering bets. Also table light flickering under felt.",
+            "solution": "Replaced sensor, tightened light connections. Calibrated with test dice. All bets now tracked.",
+            "status": "OK",
+            "engine": "hybrid",
+            "origins": [
+              "semantic"
+            ],
+            "relevant": false
+          },
+          {
+            "id": "m003014",
+            "score": 0.01587,
+            "date": "2020-05-20",
+            "casino": "Casino Delta",
+            "department": "IT",
+            "equipment": "Camera CT12",
+            "problem": "Video feed keeps freezing every 15-20 minutes for about 5 seconds. PTZ controls unresponsive during the freezes. Lens appears clean, no network alert.",
+            "solution": "Replaced faulty Ethernet cable and re-terminated the connection. Updated camera firmware and hard reset the device. Feed now stable.",
+            "status": "OK",
+            "engine": "hybrid",
+            "origins": [
+              "keyword"
+            ],
+            "relevant": false
+          }
+        ],
+        "recall_at_k": 0.0
+      }
+    }
+  },
+  {
+    "query": {
+      "id": "h2",
+      "query": "slot machine memory needs to be cleared",
+      "difficulty": "hard",
+      "relevant_keywords": [
+        [
+          "ram"
+        ],
+        [
+          "memory"
+        ],
+        [
+          "clear"
+        ],
+        [
+          "reset"
+        ]
+      ],
+      "judge": "auto"
+    },
+    "engines": {
+      "keyword": {
+        "elapsed_ms": 96,
+        "hits": [
+          {
+            "id": "m001193",
+            "score": 1.0,
+            "date": "2024-01-05",
+            "casino": "Casino Delta",
+            "department": "Gaming Floor",
+            "equipment": "Slot #345",
+            "problem": "Machine displays tilt error and stops accepting coins. Reboot didn't clear. Suspect jammed coin path or faulty sensor.",
+            "solution": "Opened cabinet, cleared bent coin from acceptor, reseated sensor connector. Self-test passed.",
+            "status": "OK",
+            "engine": "keyword",
+            "relevant": true
+          },
+          {
+            "id": "m000746",
+            "score": 0.9444,
+            "date": "2020-10-08",
+            "casino": "Venue Iota",
+            "department": "Slots",
+            "equipment": "Slot #891",
+            "problem": "Coin hopper jammed with a foreign object (looks like a bent paperclip). Machine shows coin-out error and stops accepting new credits. Attendant cleared twice but jam returns.",
+            "solution": "Disassembled hopper, removed object and several worn coins, cleaned and lubricated drive gear. Reassembled and tested 50 coin drops without issue.",
+            "status": "OK",
+            "engine": "keyword",
+            "relevant": true
+          },
+          {
+            "id": "m000225",
+            "score": 0.8333,
+            "date": "2024-07-18",
+            "casino": "Casino Delta",
+            "department": "Slots",
+            "equipment": "Slot #512",
+            "problem": "Game freezes on 'bonus round' screen, touchscreen unresponsive. Player unable to continue play.",
+            "solution": "Rebooted machine, verified firmware version, ran memory test, no further issues.",
+            "status": "OK",
+            "engine": "keyword",
+            "relevant": true
+          },
+          {
+            "id": "m000305",
+            "score": 0.8333,
+            "date": "2023-04-29",
+            "casino": "Venue Iota",
+            "department": "Gaming Floor",
+            "equipment": "Slot #345",
+            "problem": "Machine displaying tilt error and refusing to accept coins. Reel assembly seems stuck and prevents normal spin cycle.",
+            "solution": "Cleared jammed coin pathway, reset reel motor, ran self-test. All functions normal.",
+            "status": "OK",
+            "engine": "keyword",
+            "relevant": true
+          },
+          {
+            "id": "m000500",
+            "score": 0.8333,
+            "date": "2024-11-19",
+            "casino": "Casino Alpha",
+            "department": "Gaming Floor",
+            "equipment": "Slot #345",
+            "problem": "Machine displays coin jam error. Hopper is stuck, sensor not clearing between cycles. Reel spins but payout not dispensing.",
+            "solution": "Opened hopper, removed bent coin, cleared debris from payout sensor. Tested cycles. Working.",
+            "status": "Working",
+            "engine": "keyword",
+            "relevant": true
+          }
+        ],
+        "recall_at_k": 1.0
+      },
+      "semantic": {
+        "elapsed_ms": 10,
+        "hits": [
+          {
+            "id": "m002632",
+            "score": 0.7904,
+            "date": "2023-04-22",
+            "casino": "Casino Alpha",
+            "department": "Gaming Floor",
+            "equipment": "Slot #410",
+            "problem": "machine won't boot after power outage on Slot #410",
+            "solution": "performed RAM clear and reboot",
+            "status": "OK",
+            "engine": "semantic",
+            "relevant": true
+          },
+          {
+            "id": "m004506",
+            "score": 0.7904,
+            "date": "2024-08-04",
+            "casino": "Venue Eta",
+            "department": "Gaming Floor",
+            "equipment": "Slot #410",
+            "problem": "machine won't boot after power outage on Slot #410",
+            "solution": "performed RAM clear and reboot",
+            "status": "Awaiting parts - Working",
+            "engine": "semantic",
+            "relevant": true
+          },
+          {
+            "id": "m001607",
+            "score": 0.7826,
+            "date": "2025-01-05",
+            "casino": "Casino Zeta",
+            "department": "Gaming Floor",
+            "equipment": "Slot #10",
+            "problem": "machine won't boot after power outage on Slot #10",
+            "solution": "performed RAM clear and reboot",
+            "status": "Working",
+            "engine": "semantic",
+            "relevant": true
+          },
+          {
+            "id": "m002555",
+            "score": 0.7816,
+            "date": "2022-03-30",
+            "casino": "Venue Kappa",
+            "department": "Gaming Floor",
+            "equipment": "Slot #21",
+            "problem": "machine won't boot after power outage on Slot #21",
+            "solution": "performed RAM clear and reboot",
+            "status": "Working",
+            "engine": "semantic",
+            "relevant": true
+          },
+          {
+            "id": "m003097",
+            "score": 0.7816,
+            "date": "2020-01-01",
+            "casino": "Casino Delta",
+            "department": "Gaming Floor",
+            "equipment": "Slot #21",
+            "problem": "machine won't boot after power outage on Slot #21",
+            "solution": "performed RAM clear and reboot",
+            "status": "Awaiting parts - Working",
+            "engine": "semantic",
+            "relevant": true
+          }
+        ],
+        "recall_at_k": 1.0
+      },
+      "hybrid": {
+        "elapsed_ms": 103,
+        "hits": [
+          {
+            "id": "m001193",
+            "score": 0.01639,
+            "date": "2024-01-05",
+            "casino": "Casino Delta",
+            "department": "Gaming Floor",
+            "equipment": "Slot #345",
+            "problem": "Machine displays tilt error and stops accepting coins. Reboot didn't clear. Suspect jammed coin path or faulty sensor.",
+            "solution": "Opened cabinet, cleared bent coin from acceptor, reseated sensor connector. Self-test passed.",
+            "status": "OK",
+            "engine": "hybrid",
+            "origins": [
+              "keyword"
+            ],
+            "relevant": true
+          },
+          {
+            "id": "m002632",
+            "score": 0.01639,
+            "date": "2023-04-22",
+            "casino": "Casino Alpha",
+            "department": "Gaming Floor",
+            "equipment": "Slot #410",
+            "problem": "machine won't boot after power outage on Slot #410",
+            "solution": "performed RAM clear and reboot",
+            "status": "OK",
+            "engine": "hybrid",
+            "origins": [
+              "semantic"
+            ],
+            "relevant": true
+          },
+          {
+            "id": "m000746",
+            "score": 0.01613,
+            "date": "2020-10-08",
+            "casino": "Venue Iota",
+            "department": "Slots",
+            "equipment": "Slot #891",
+            "problem": "Coin hopper jammed with a foreign object (looks like a bent paperclip). Machine shows coin-out error and stops accepting new credits. Attendant cleared twice but jam returns.",
+            "solution": "Disassembled hopper, removed object and several worn coins, cleaned and lubricated drive gear. Reassembled and tested 50 coin drops without issue.",
+            "status": "OK",
+            "engine": "hybrid",
+            "origins": [
+              "keyword"
+            ],
+            "relevant": true
+          },
+          {
+            "id": "m004506",
+            "score": 0.01613,
+            "date": "2024-08-04",
+            "casino": "Venue Eta",
+            "department": "Gaming Floor",
+            "equipment": "Slot #410",
+            "problem": "machine won't boot after power outage on Slot #410",
+            "solution": "performed RAM clear and reboot",
+            "status": "Awaiting parts - Working",
+            "engine": "hybrid",
+            "origins": [
+              "semantic"
+            ],
+            "relevant": true
+          },
+          {
+            "id": "m000225",
+            "score": 0.01587,
+            "date": "2024-07-18",
+            "casino": "Casino Delta",
+            "department": "Slots",
+            "equipment": "Slot #512",
+            "problem": "Game freezes on 'bonus round' screen, touchscreen unresponsive. Player unable to continue play.",
+            "solution": "Rebooted machine, verified firmware version, ran memory test, no further issues.",
+            "status": "OK",
+            "engine": "hybrid",
+            "origins": [
+              "keyword"
+            ],
+            "relevant": true
+          }
+        ],
+        "recall_at_k": 1.0
+      }
+    }
+  },
+  {
+    "query": {
+      "id": "h3",
+      "query": "network connectivity dropped at multiple locations",
+      "difficulty": "hard",
+      "relevant_keywords": [
+        [
+          "network"
+        ],
+        [
+          "switch"
+        ],
+        [
+          "connection"
+        ],
+        [
+          "down"
+        ],
+        [
+          "offline"
+        ]
+      ],
+      "judge": "auto"
+    },
+    "engines": {
+      "keyword": {
+        "elapsed_ms": 108,
+        "hits": [
+          {
+            "id": "m000350",
+            "score": 1.0,
+            "date": "2024-04-12",
+            "casino": "Venue Theta",
+            "department": "IT",
+            "equipment": "Router R3",
+            "problem": "Intermittent packet loss on floor network. Players reporting lag at multiple kiosks.",
+            "solution": "Rebooted router, updated firmware, replaced faulty cable to switch. Network stable.",
+            "status": "OK",
+            "engine": "keyword",
+            "relevant": true
+          },
+          {
+            "id": "m000792",
+            "score": 1.0,
+            "date": "2021-09-12",
+            "casino": "Casino Alpha",
+            "department": "IT",
+            "equipment": "Switch Rack 3B",
+            "problem": "Intermittent packet loss to slot network causing timeouts on multiple machines. VLAN 10 flapping between ports.",
+            "solution": "Replaced faulty SFP module and reseated all uplink cables. Verified stable latency for 30 minutes.",
+            "status": "OK",
+            "engine": "keyword",
+            "relevant": true
+          },
+          {
+            "id": "m000892",
+            "score": 1.0,
+            "date": "2022-12-05",
+            "casino": "Regional Office A",
+            "department": "IT",
+            "equipment": "Switch SW-9",
+            "problem": "Network switch dropping packets intermittently, causing slot machine transaction timeouts. High error rate.",
+            "solution": "Replaced faulty port module, updated switch firmware. Packet loss dropped to 0%.",
+            "status": "OK",
+            "engine": "keyword",
+            "relevant": true
+          },
+          {
+            "id": "m001142",
+            "score": 1.0,
+            "date": "2020-09-11",
+            "casino": "Venue Eta",
+            "department": "IT",
+            "equipment": "Switch 14B",
+            "problem": "Intermittent packet loss on floor network causing slot machines to lose connectivity. Error logs show CRC errors.",
+            "solution": "Replaced faulty copper SFP module, cleaned fiber port. Ran continuous ping test 2hrs.",
+            "status": "OK",
+            "engine": "keyword",
+            "relevant": true
+          },
+          {
+            "id": "m001947",
+            "score": 1.0,
+            "date": "2021-01-16",
+            "casino": "Regional Office A",
+            "department": "Slots",
+            "equipment": "Progressive Controller JC-1",
+            "problem": "Jackpot amounts not updating on multiple slot displays. Network connection lost.",
+            "solution": "Rebooted controller, updated firmware, and reconnected network. All displays sync.",
+            "status": "OK",
+            "engine": "keyword",
+            "relevant": true
+          }
+        ],
+        "recall_at_k": 1.0
+      },
+      "semantic": {
+        "elapsed_ms": 12,
+        "hits": [
+          {
+            "id": "m001062",
+            "score": 0.7625,
+            "date": "2024-08-06",
+            "casino": "Venue Theta",
+            "department": "IT",
+            "equipment": "Switch NW-22",
+            "problem": "Random packet loss on port 8 causing point-of-sale system to drop connectivity every few minutes. Checked cabling - all good.",
+            "solution": "Swapped port to a spare, updated firmware. Monitored for an hour. Stable.",
+            "status": "OK",
+            "engine": "semantic",
+            "relevant": true
+          },
+          {
+            "id": "m001839",
+            "score": 0.7515,
+            "date": "2020-02-25",
+            "casino": "Casino Alpha",
+            "department": "IT",
+            "equipment": "Switch Rack 4",
+            "problem": "Random packet loss to floor terminals, intermittent disconnects on slot network.",
+            "solution": "Replaced faulty fiber patch cable, updated switch firmware, monitored for 2 hours.",
+            "status": "OK",
+            "engine": "semantic",
+            "relevant": true
+          },
+          {
+            "id": "m000762",
+            "score": 0.7489,
+            "date": "2022-08-06",
+            "casino": "Casino Gamma",
+            "department": "IT",
+            "equipment": "Firewall Edge",
+            "problem": "Occasional drop in VPN tunnel, clients lose connection for a few minutes. Log shows rekey failure.",
+            "solution": "Updated firmware and changed tunnel settings. Stable for 48 hours.",
+            "status": "Working",
+            "engine": "semantic",
+            "relevant": true
+          },
+          {
+            "id": "m000675",
+            "score": 0.7487,
+            "date": "2023-12-17",
+            "casino": "Venue Eta",
+            "department": "IT",
+            "equipment": "Switch 14",
+            "problem": "Port 8 intermittently drops link, causing packet loss to adjacent slot banks. Replaced patch cable but issue persists.",
+            "solution": "Reseated SFP module and cleaned fiber connector. Ran 24h ping test with zero drops.",
+            "status": "Working",
+            "engine": "semantic",
+            "relevant": true
+          },
+          {
+            "id": "m003087",
+            "score": 0.7482,
+            "date": "2021-10-11",
+            "casino": "Venue Theta",
+            "department": "IT",
+            "equipment": "Switch SW-118",
+            "problem": "Network dropouts on gaming floor devices every 15 minutes. Port flapping on uplink.",
+            "solution": "Replaced faulty SFP module and reseated all cables. Monitored for 2 hours, stable.",
+            "status": "OK",
+            "engine": "semantic",
+            "relevant": true
+          }
+        ],
+        "recall_at_k": 1.0
+      },
+      "hybrid": {
+        "elapsed_ms": 112,
+        "hits": [
+          {
+            "id": "m002065",
+            "score": 0.02986,
+            "date": "2021-02-04",
+            "casino": "Regional Office B",
+            "department": "IT",
+            "equipment": "Switch Rack 3",
+            "problem": "Unmanaged switch dropping packets on port 8, causing intermittent connectivity for gaming terminals.",
+            "solution": "Replaced faulty network cable and reseated the port. No further drops observed.",
+            "status": "Working",
+            "engine": "hybrid",
+            "origins": [
+              "keyword",
+              "semantic"
+            ],
+            "relevant": true
+          },
+          {
+            "id": "m001062",
+            "score": 0.02905,
+            "date": "2024-08-06",
+            "casino": "Venue Theta",
+            "department": "IT",
+            "equipment": "Switch NW-22",
+            "problem": "Random packet loss on port 8 causing point-of-sale system to drop connectivity every few minutes. Checked cabling - all good.",
+            "solution": "Swapped port to a spare, updated firmware. Monitored for an hour. Stable.",
+            "status": "OK",
+            "engine": "hybrid",
+            "origins": [
+              "keyword",
+              "semantic"
+            ],
+            "relevant": true
+          },
+          {
+            "id": "m000350",
+            "score": 0.02889,
+            "date": "2024-04-12",
+            "casino": "Venue Theta",
+            "department": "IT",
+            "equipment": "Router R3",
+            "problem": "Intermittent packet loss on floor network. Players reporting lag at multiple kiosks.",
+            "solution": "Rebooted router, updated firmware, replaced faulty cable to switch. Network stable.",
+            "status": "OK",
+            "engine": "hybrid",
+            "origins": [
+              "keyword",
+              "semantic"
+            ],
+            "relevant": true
+          },
+          {
+            "id": "m002008",
+            "score": 0.02867,
+            "date": "2023-01-03",
+            "casino": "Venue Kappa",
+            "department": "IT",
+            "equipment": "Switch Room 2",
+            "problem": "Network packets drop intermittently, especially during peak hours. Switch logs show high error rates on port 14.",
+            "solution": "Replaced the patch cable and reseated the SFP module. Port errors cleared, tested with a network monitor.",
+            "status": "OK",
+            "engine": "hybrid",
+            "origins": [
+              "keyword",
+              "semantic"
+            ],
+            "relevant": true
+          },
+          {
+            "id": "m004646",
+            "score": 0.02783,
+            "date": "2020-07-14",
+            "casino": "Venue Theta",
+            "department": "IT",
+            "equipment": "Switch NW-04",
+            "problem": "Intermittent packet loss on floor network segment causing slot machine lag and dropped transactions.",
+            "solution": "Replaced faulty transceiver and updated switch firmware; monitored traffic for 2 hours.",
+            "status": "Working",
+            "engine": "hybrid",
+            "origins": [
+              "keyword",
+              "semantic"
+            ],
+            "relevant": true
+          }
+        ],
+        "recall_at_k": 1.0
+      }
+    }
+  }
+]

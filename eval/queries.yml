@@ -1,0 +1,73 @@
+# Evaluation set — 10 real technician queries.
+# Categorised by difficulty for the three retrieval modes.
+#
+# `relevant_keywords` = words that MUST appear in a truly-relevant record
+# (used as ground-truth heuristic in run.py — top-5 result is judged relevant
+# if its problem+solution text contains at least one relevant_keyword group).
+#
+# For queries where keyword-matching is a poor proxy (paraphrase / hard),
+# we mark `judge: manual` so the eval prompts for human judgment instead.
+
+queries:
+  # ─── EASY: exact-vocab queries the current keyword system handles well ───
+  - id: e1
+    query: "card reader not working"
+    difficulty: easy
+    relevant_keywords: [["card", "reader"]]
+    judge: auto
+
+  - id: e2
+    query: "IP camera installation"
+    difficulty: easy
+    relevant_keywords: [["camera"], ["ip", "cam"]]
+    judge: auto
+
+  - id: e3
+    query: "power supply failure"
+    difficulty: easy
+    relevant_keywords: [["power"], ["psu"], ["supply"]]
+    judge: auto
+
+  # ─── PARAPHRASE: technician uses different words for the same problem ───
+  - id: p1
+    query: "machine keeps shutting off by itself"
+    difficulty: paraphrase
+    relevant_keywords: [["reboot"], ["restart"], ["shut", "off"], ["power", "off"]]
+    judge: auto
+
+  - id: p2
+    query: "coin hopper eats notes and won't dispense"
+    difficulty: paraphrase
+    relevant_keywords: [["hopper"], ["bill", "acceptor"], ["note"], ["jam"]]
+    judge: auto
+
+  - id: p3
+    query: "video feed is dark and grainy"
+    difficulty: paraphrase
+    relevant_keywords: [["camera"], ["exposure"], ["dark"], ["focus"], ["blur"]]
+    judge: auto
+
+  - id: p4
+    query: "cabinet unresponsive to touch"
+    difficulty: paraphrase
+    relevant_keywords: [["touch"], ["screen"], ["calibrat"], ["unresponsive"]]
+    judge: auto
+
+  # ─── HARD: semantic understanding required, keyword-only should struggle ───
+  - id: h1
+    query: "table game equipment where results are hard to see for camera"
+    difficulty: hard
+    relevant_keywords: [["visibility"], ["exposure"], ["card"], ["spotlight"], ["glare"]]
+    judge: auto
+
+  - id: h2
+    query: "slot machine memory needs to be cleared"
+    difficulty: hard
+    relevant_keywords: [["ram"], ["memory"], ["clear"], ["reset"]]
+    judge: auto
+
+  - id: h3
+    query: "network connectivity dropped at multiple locations"
+    difficulty: hard
+    relevant_keywords: [["network"], ["switch"], ["connection"], ["down"], ["offline"]]
+    judge: auto
