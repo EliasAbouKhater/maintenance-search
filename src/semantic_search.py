@@ -28,7 +28,7 @@ from chromadb.config import Settings
 from sentence_transformers import SentenceTransformer
 
 sys.path.insert(0, str(Path(__file__).parent))
-from config import CHROMA_DIR, COLLECTION_NAME, EMBED_MODEL, CSV_PATH, DEFAULT_TOP_K
+from config import CHROMA_DIR, COLLECTION_NAME, CSV_PATH, DEFAULT_TOP_K, EMBED_MODEL
 
 
 @lru_cache(maxsize=1)
