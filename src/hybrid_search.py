@@ -41,7 +41,7 @@ def search(query: str, top_k: int = DEFAULT_TOP_K, pool: int = 20, **filters) ->
     for engine_hits, tag in [(kw_hits, "keyword"), (sem_hits, "semantic")]:
         for rank, hit in enumerate(engine_hits):
             rid = hit["id"]
-            scores[rid] = scores.get(rid, 0.0) + 1.0 / (RRF_K + rank + 1)
+            scores[rid] = scores.get(rid, 0.0) + 1.0 / (RRF_K + rank)
             origins.setdefault(rid, []).append(tag)
             # Prefer semantic's row payload (has richer text); keyword payload if missing
             if rid not in rows or tag == "semantic":
