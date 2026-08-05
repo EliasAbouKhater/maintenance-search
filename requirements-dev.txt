@@ -1,0 +1,4 @@
+# Lightweight deps for tests + linting. Heavy runtime deps (torch, chromadb,
+# sentence-transformers) are stubbed via sys.modules in tests/test_hybrid_search.py,
+# so we don't install them in CI — keeps runs fast and cheap.
+pytest==8.3.3

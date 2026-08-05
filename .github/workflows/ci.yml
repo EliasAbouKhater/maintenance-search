@@ -1,0 +1,27 @@
+name: CI
+
+on:
+  push:
+    branches: ['**']
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+  pull-requests: write
+  issues: write
+  security-events: write
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: EliasAbouKhater/ai-review-action@main
+        with:
+          llm-api-key: ${{ secrets.LLM_API_KEY }}
+          paths: 'src tests'
+          fail-on-lint: 'true'

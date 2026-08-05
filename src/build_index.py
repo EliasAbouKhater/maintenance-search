@@ -21,7 +21,7 @@ from chromadb.config import Settings
 from sentence_transformers import SentenceTransformer
 
 sys.path.insert(0, str(Path(__file__).parent))
-from config import CSV_PATH, CHROMA_DIR, COLLECTION_NAME, EMBED_MODEL
+from config import CHROMA_DIR, COLLECTION_NAME, CSV_PATH, EMBED_MODEL
 
 
 def build_doc_text(row: dict) -> str:
