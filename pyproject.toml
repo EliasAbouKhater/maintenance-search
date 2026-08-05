@@ -12,6 +12,11 @@ ignore = [
   "E702",   # multiple statements on one line (semicolon) — same reason
 ]
 
+[tool.mypy]
+python_version = "3.10"
+ignore_missing_imports = true
+follow_imports = "silent"
+
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 python_files = ["test_*.py"]
